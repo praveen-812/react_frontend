@@ -16,9 +16,8 @@ const App =()=>{
   return(<>
   
      <div>
-
        <Navbar/>
-       <Mainpage/>
+       
       <Routes>
          <Route path="/"  element={<Home/>}/>
          <Route path="/About"  element={<About/>}/>
@@ -28,6 +27,7 @@ const App =()=>{
          <Route path="/Help"  element={<Help/>}/>
           <Route path="/Course"  element={<Course/>}/>
       </Routes>
+      
      </div>
   </>)
 }
