@@ -2,7 +2,7 @@ const About =()=>{
     return(
 
         <>
-          <h2></h2>
+          <h2>aabout</h2>
         </>
     )
 }
